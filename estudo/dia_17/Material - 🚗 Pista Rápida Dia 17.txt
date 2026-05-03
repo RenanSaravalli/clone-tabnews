@@ -1,0 +1,28 @@
+🚗 Pista Rápida: Dia 17
+----- Além de conversarmos sobre tudo que foi feito no Dia 17, como as 3 partes que eu considero na escolha de um Banco de Dados, entender o motivo do Docker ter "dominado" o mundo das virtualizações, depois como subir e se conectar a uma instância de Postgres de forma local utilizando o Docker Compose, além de tudo isso, eu passo mais um pouco da minha visão sobre o que faz um sênior ser um sênior na nossa área 💪
+
+---- 17.2 - Qual Banco de Dados escolher?
+Eu vou começar essa aula de um jeito estranho mas... e se eu te falar que talvez eu fiz a pior escolha de qual banco de dados usar para o TabNews e eu não me arrependo nenhum pouco? 🔥
+
+Link para issue
+Segue abaixo o link para a issue que eu comentei no vídeo:
+
+https://github.com/filipedeschamps/tabnews.com.br/issues/61
+
+---- 17.3 - Por que o Docker dominou o mundo?
+Eu vim de uma época que me dói lembrar como que era configurar os serviços num ambiente de desenvolvimento local, porque toda hora algo mágico acontecia 😅 E nesta Pista Lenta vamos conferir a evolução deste assunto, até entrarmos na época dos containers.
+
+---- 17.4 - Subir Banco de Dados (Local)
+A aula de hoje vai ser bastante prática, pois iremos usar o docker compose para subir um Banco de Dados na sua versão Local 🎉
+
+Links
+Página oficial do Postgres no Docker Hub
+https://hub.docker.com/_/postgres
+
+----- 17.5 - Se conectando no Banco de Dados (Local)
+Eu deixei você na cara do gol na aula anterior, com o container rodando e servindo o Postgres, mas não sendo possível se conectar nele. E olha só que engraçado, a aula de hoje vai começar tentando se conectar nele mesmo assim para entender de verdade porque não é possível, e por fim, se conectar nele com sucesso 🎉
+
+Link para o commit feito na aula
+add compose config file with database service
+https://github.com/filipedeschamps/clone-tabnews/commit/f22ec8cca2e4c29c07f6a4544c703f6a483ca045
+

@@ -1,0 +1,35 @@
+Material 🚗 Pista Rápida: Dia 20
+
+----- 20.1 - Eu já trabalhei com muita gente boa, mas até essas pessoas (uma parte delas pelo menos), deixavam escapar algo extremamente importante... deixavam de pensar sobre algo importante na hora de programar um backend, mas você não vai falhar nisso e é por esse e outros motivos que o Dia 20 existe 💪
+
+-----  20.2 - Endpoint "/status": ISO 8601 + Fuso + MVC + lowerCamelCase
+Esta é uma descrição difícil de se fazer, pois esta é mais uma daquelas aulas onde eu avanço o projeto e utilizo qualquer oportunidade que consigo para fazer o download de mais conhecimentos. Por isso que além de avançar com o endpoint /status, eu aproveito para falar sobre ISO 8601, Fuso, MVC e lowerCamelCase 💪
+
+-----  20.3 - Database "Version" (+ Red, Green e Refactor do TDD)
+Chegou a hora de usar 100% de TDD para implementar o retorno do dependencies.database.version. Fora isso, vamos revisitar os 3 Estágios do TDD que são Red, Green e Refactor 💪
+
+🛑 Atenção
+Para você entender o começo dessa aula, você precisa ficar até o último segundo da aula anterior: Endpoint "/status": ISO 8601 + Fuso + MVC + lowerCamelCase 🤝https://curso.dev/web/endpoint-status-updated-at
+
+----- 20.4 -  Database "Max Connections"
+Já que estamos retornando a Versão do Postgres no endpoint /status, o próximo agora passo é retornar as Conexões máximas e, tecnicamente falando, isso é uma implementação simples, mas vai ser a oportunidade perfeita pra que, no meio da implementação, eu faça uma pergunta muito importante.. uma que evitaria eu ter cometido um erro no TabNews. Vamos ver qual vai ser a sua resposta 
+
+----- 20.5 - Database "Opened Connections"
+Essa Pista Lenta aqui vai ser muito massa, porque ela vai abrir margem pra eu ensinar conceitos muito importantes sobre Banco de Dados, tráfego de dados, fora que a última coisa que falta é injetar no retorno do endpoint /status a quantidade de Conexões usadas pelo nosso backend, na verdade... quantas conexões ao banco estão abertas naquele momento, independente se foi nosso backend ou outro client que está se conectando ao banco 🤝
+
+----- 20.6 - SQL Injection e Queries Parametrizadas
+O Dia 20 tá bem massa e vai ficar ainda mais, porque nesta Pista Lenta vamos aprender sobre SQL Injection, Queries Parametrizadas, identificar e consertar o problema de Vazamento de Conexões, marcar como concluída a tarefa Finalizar retorno do endpoint /status e concluir a issue Banco de Dados (Local) com muito orgulho 💪
+
+Links para os commits feitos na aula
+
+make database.js more robust to error handling -
+https://github.com/filipedeschamps/clone-tabnews/commit/ba2e966f52205c6372a09f0023a740f211b22b5e
+
+finish /api/v1/status endpoint -
+https://github.com/filipedeschamps/clone-tabnews/commit/dd5e3cee0f66c8c9e459bda7d6ad95a3c17a24cb
+
+Correção
+Quem exatamente protege a query de um SQL Injection não é o node-postgres e sim o próprio Postgres. Sugiro ler este comentário do gabrielmarques para detalhes excelentes sobre essa mecânica 🎉
+
+https://curso.dev/alunos/gabrielmarques/bfd49541-91a9-41e7-a839-c3b32de02ee6
+

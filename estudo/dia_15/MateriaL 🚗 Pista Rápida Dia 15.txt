@@ -1,0 +1,26 @@
+----- 15.1 - 🚗 Pista Rápida: Dia 15
+Eu não to brincando quando eu falo que o Dia 15 pode mudar de verdade a sua vida na programação, isso porque ela ficou reservada para falar sobre Testes Automatizados e que é um tema que, se você engata, se você entende os benefícios e usa pra programar de uma forma melhor e mais despreocupada, muda completamente o seu fluxo de trabalho e é um caminho sem volta... sem volta mesmo!
+
+---- 15.2 - Testes Automatizados: um caminho sem volta
+Trabalhar com Testes Automatizados para acelerar e melhorar como você programa é um caminho sem volta. O problema é como passar um conteúdo infinito como este num estilo "curso.dev" e neste vídeo eu faço uma proposta 🤝
+
+----- 15.3 - Instalar um Test Runner
+Se você ainda não passou pela jornada dos Testes Automatizados, com o que eu vou te mostrar daqui para frente, provavelmente você vai pensar "nossa... testes automatizados é só isso!?!" ... aí naturalmente você vai enfiando cada vez mais o pé na lama, talvez num ponto de começar a colocar o assunto Testes Automatizados num pedestal. Aí depois quando dá aquele click de novo sobre o que realmente está acontecendo... você vai voltar a pensar: "nossa… testes automatizados… é só isso?!??!?"
+
+É uma jornada muito legal e reveladora de vários aspectos sobre a "arte de programar", e tudo começa com a instalação de um Test Runner 💪
+
+Link para o commit feito na aula
+install jest and configure test scripts 
+https://github.com/filipedeschamps/clone-tabnews/commit/89dd1fbfa2b70cef2c9f5a629638a0e5af77dec1
+
+----- 15.4 - Criar um "Teste de Teste"
+Eu e você temos uma missão importante dentro dessa aula que é completar a tarefa de Criar um Teste de Teste, fora começar a aprender sobre o fluxo de trabalho que eu uso, que é usar o Test Runner para que ele nos diga se estamos nos aproximando ou afastando de um certo objetivo. E se você estiver se perguntando: "mas tá... qual objetivo?" Ótimo, porque é exatamente aqui que você precisa ativar o seu Modo Arqueiro e todo arqueiro precisa de um alvo (de um objetivo) para atirar a sua flecha 🏹
+
+Introdução ao JavaScript
+Meu objetivo é construir um material para pessoas que estão iniciando realmente do zero, mas enquanto este material não existe, gostaria de recomendar a playlist abaixo:
+
+🎥 Curso Grátis de JavaScript e ECMAScript para Iniciantes
+https://youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1
+
+----- 15.5 - Criar um "Teste de Verdade"
+Agora a coisa começa a ficar séria porque a gente vai criar um Teste de Verdade e encerrar a issue Testes Automatizados pra valer 💪 Fora isso, nós vamos treinar duas abordagens completamente opostas quando se escreve testes (onde uma é só para profissionais) 🤝

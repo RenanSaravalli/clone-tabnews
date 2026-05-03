@@ -1,0 +1,45 @@
+Material - 🚗 Pista Rápida: Dia 10
+----- 10.1 - Não sei se você notou, mas a gente está passando um pente fino em tudo e no Dia 10 não vai ser diferente. Eu digo isso porque eu já conversei com muitos desenvolvedores seniores que eram “seniores ocos”... e eu não estou querendo machucar ninguém falando isso. Primeiro porque é algo muito comum, muito mais comum do que muita gente que ainda não é sênior possa imaginar que seja assim, e segundo e mais importante, nas conversas que eu tive, a própria pessoa revelava isso (de ter essa insegurança) e isso foi um dos grandes motivos de eu colocar na mensagem principal do curso.dev…que "se sentir competente em programação começa aqui".
+
+Então pra isso acontecer, pra de verdade se sentir completamente competente, não tem pra onde escapar... é preciso trabalhar o lado pessoal/profissional e o lado técnico e o Dia 10 junta essas duas coisas 💪
+
+----- 10.2 - Uma história macabra sobre "Estilização de Código"
+No compromisso de fazer o download do meu cérebro, eu não posso apenas ensinar a parte técnica de algo que eu acredito ser importante. Eu preciso compartilhar com você eventos da "vida real" que aconteceram e que, aí sim, concretizam a importância da parte técnica. Isso é o que irá fazer grudar na sua mente o conhecimento 💪
+
+Então nesta aula vou contar uma história que eu vivenciei no início do Pagar.me, onde eu espero convencer você que, estilização de código, no longo prazo, é algo muito importante 🤝
+
+Curiosidade
+Neste comentário - https://curso.dev/alunos/czaghi/e5632290-0281-41ae-b7f0-a762bdc9ff09 -  o aluno czaghi diz que encontrou o PR que eu citei na aula 😂
+
+----- 10.3 - Sincronização das configurações do Editor
+Esta é uma aula mais específica ao Codespaces ou até VS Code e que serve como referência para outros editores sobre uma feature para sincronização na nuvem de configurações.
+
+Mas independente disto, a parte mais importante é que nesta aula iremos aprender a dividir uma Issue em Tarefas e concluir a primeira Tarefa da Milestone 🎉
+
+Observação
+A forma como o GitHub exibe o progresso dentro das issues mudou, e agora é feito através das sub-issues. Você encontra mais informações nesse comentário aqui. https://curso.dev/alunos/Andrei/d7999518-ea89-4046-b5a3-05b922d7a3dd
+
+----- 10.5 - Configurar o Prettier
+Nesta aula iremos passar um pente fino no assunto Prettier que é um dos formatadores de código mais famosos do mundo 💪
+
+A princípio, o assunto Prettier é simples, e de fato é, mas esta simplicidade abre espaço para brechas numa estratégia mais madura sobre a garantia da estilização do código. Então como aqui no curso.dev minha missão é não deixar buracos no seu conhecimento, chegou a hora de estudar este assunto de forma séria, incluindo, preparar o projeto para que ele também seja um projeto sério 🤝
+
+Link para o commit feito na aula
+adiciona scripts lint:check e lint:fix
+https://github.com/filipedeschamps/clone-tabnews/commit/0f6d6381cfddc536b2d3f5ed9758f9b026941a27
+
+----- 10.6 - 🎁 Extra: Configurar o Prettier Ignore
+Algo aconteceu no meu ambiente de desenvolvimento que foi diferente do que aconteceu no ambiente de alguns outros alunos quando executaram o script npm run lint:check ou npm run lint:fix. Nesta aula vamos investigar o que aconteceu e o que fazer para deixar tudo sincronizado 💪
+
+🛑 Breaking Change
+O prettier a partir da versão 3.0.0 mudou o seu comportamento e por padrão está utilizando o conteúdo dentro .gitignore para também ignorar o linting de estilização 🎉 Isto foi anunciado neste comunicado. - https://prettier.io/blog/2023/07/05/3.0.0.html#ignore-gitignored-files-by-default-14731httpsgithubcomprettierprettierpull14731-by-fiskerhttpsgithubcomfisker - 
+
+Caso você queira simular o comportamento da aula, basta instalar o módulo na versão 2.8.8 da seguinte forma:
+
+npm install prettier@2.8.8 
+
+Link para o commit feito na aula
+adiciona .prettierignore 
+
+https://github.com/filipedeschamps/clone-tabnews/commit/662bf5936245f3af53f3e70436a43bb48c49f12f
+

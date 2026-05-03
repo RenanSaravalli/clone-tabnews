@@ -1,0 +1,23 @@
+Material - 🚗 Pista Rápida: Dia 12
+----- Se o Dia 11 ficou reservado para falar da parte teórica do DNS, o Dia 12 ficou reservado para a parte prática e dentro deste vídeo vamos revisar tudo o que aconteceu e, ao final, eu falo sobre uma característica que os melhores profissionais com que eu já trabalhei compartilhavam 💪
+
+----- 12.2 - Registrar um Domínio Próprio
+Quando você faz um registro de um domínio .com.br (ou o registro de qualquer domínio na verdade), você está modificando a internet e é isto que iremos fazer nesta aula 💪
+
+🛑 Atenção
+Caso ao registrar o domínio você receba uma mensagem de erro informando algo como "outro serviço está como responsavel pela administração", peço que leia as instruções colocadas neste comentário - https://curso.dev/alunos/niege/2cfc6796-1d2a-4895-8b3f-ca829f41563b -  do niege e que dá os passos sobre como desbloquear o atual Registrador 🤝
+
+----- 12.3 - Configurar o Servidor de DNS
+Nesta Pista Lenta iremos configurar nosso próprio Servidor Autoritativo (Servidor de DNS), para que ele aponte lá para o Servidor da Vercel, que é onde ta o nosso site 💪
+
+Chorinho sobre Servidor de DNS
+Clique aqui para acessar a aula 🤝 https://curso.dev/web/configurar-servidor-dns-chorinho
+
+Registro.br possui um "Modo Avançado"
+Eu não sabia, mas o Rodrigo Kulb colocou nesta resposta - https://curso.dev/alunos/rodrigoKulb/2c901041-9734-4705-822d-829d2550a316 -  que o Registro.br possui um Modo Avançado onde ele fornece para você um Servidor Autoritativo completo 😍
+
+Perguntas frequentes
+Benefícios de utilizar o servidor DNS da Vercel
+Opção de nameservers não aparece na Vercel (conflito de domínios)
+
+

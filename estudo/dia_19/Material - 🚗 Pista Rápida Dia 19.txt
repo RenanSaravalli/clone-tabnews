@@ -1,0 +1,40 @@
+Material - 🚗 Pista Rápida: Dia 19
+----- Além de revisar tudo o que aconteceu no Dia 19, eu bato de novo na tecla do que é algo ser semântico. Esta é uma palavra que quero usar mais vezes, pois fazer coisas não semânticas inevitavelmente levam a muita confusão na evolução de um sistema, principalmente quando o código é passado de uma pessoa para outra 🤝
+
+----- 19.2 - Foi certo fazer o commit do .env?
+Como eu antecipei na última Pista Lenta do Dia 18, algumas lapidações importantes precisam ser feitas, incluindo em conhecimento, e eu acho melhor a gente não deixar isso para depois e fazer agora. Então eu gostaria de começar tocando no ponto de que se foi certo ou não fazer o commit do arquivo .env 🤝
+
+Artigo sobre remover dados sensíveis
+Este é o artigo que eu comentei sobre remover dados sensíveis do histórico do seu repositório: Remover dados confidenciais de um repositório
+
+https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
+
+Comentário em destaque
+Sugiro ler esse comentário - https://curso.dev/alunos/maion/b0dbda29-d784-4dd2-8ae5-e59eac4cc992 -  do aluno maion explicando como ele usou o BFG para remover dados sensíveis de dois arquivos do seu repositório 💪
+
+Link para o commit feito na aula
+move .env file to .env.development 
+https://github.com/filipedeschamps/clone-tabnews/commit/a7e5bb9bca6290c81adfd5068ad197f6737aa2bd
+
+----- 19.3 - Uma história macabra sobre "Choque Elétrico" e "TDD"
+Tem algo que me torra a paciência desde a criação do Node.js que é ele não vir por padrão com um Root Path (Caminho Raiz ou Diretório Raiz) do projeto, que é saber por padrão onde está localizada a raiz dele para trabalhar com Absolute Imports e não somente com Relative Imports. Existe uma forma bastante moderna de solucionar isso e para fazer esta implementação no estilo curso.dev, eu preciso primeiro contar uma história sobre o Guga ter levado um choque por não ter aplicado TDD 🤝
+
+----- 19.4 - Configurar o "baseUrl" para "Absolute Imports"
+Sem tempo a perder (e sem levar choque), nosso objetivo com essa aula é matar o ../../../../ interminável para acessar o database.js e conseguir referenciar ele apenas como infra/database.js em qualquer que seja o script que queira importá-lo 💪
+
+Comentário em destaque https://curso.dev/alunos/marini/46f83768-86d5-4d80-b584-4ad9e780de14
+Depois de ver a aula, sugiro ler este comentário sobre um comporamento muito interessante a respeito de iniciar o caminho com / 🤝
+
+Link para o commit feito na aula
+add jsconfig.json file
+https://github.com/filipedeschamps/clone-tabnews/commit/0917e709aee126a20272270aafb45348f1009490
+
+----- 19.5 - Configurar scripts dos serviços
+Essa aqui vai ser mais uma aula com lapidações, mas uma super importante, porque a gente vai deixar o projeto alinhado para quando a gente for trabalhar na issue de Continuous Integration 💪 Fora isso, a aula é repleta com dicas extras 😍
+
+Link para o commit feito na aula
+add services scripts https://github.com/filipedeschamps/clone-tabnews/commit/dcda2172bec466cbd7efb972df710c6f85b3be73
+Observação
+O aluno thiagosantana fez uma observação importante sobre a remoção de volumes com o comando docker compose down, que foi respondida nesse comentário aqui.https://curso.dev/alunos/Andrei/6413a0f0-ef53-45c9-a496-6a0f074789d1
+
+

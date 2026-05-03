@@ -1,0 +1,27 @@
+Material - 🚗 Pista Rápida: Dia 9
+-----
+Se você quer se divertir programando projetos tanto quanto você se diverte, por exemplo, jogando video games... o Dia 9 existe pra atingir justamente isso 💪
+
+----- 9.2 - Qual o “segredo” para organização de tarefas?
+Fazer muito com pouco e não pouco com muito... esse é um dos segredos que eu percebi quando o assunto é organização de tarefas.
+
+Vamos mapear como está o mercado?
+Se você estiver envolvido em algum projeto (mesmo que pessoal), por favor, utilize a seção de comentários para compartilhar:
+
+Quantas pessoas aproximadamente estão envolvidas nesse projeto?
+Quais softwares estão sendo usados?
+Quais metodologias estão sendo aplicadas?
+
+----- 9.3 - Como peitar projetos de qualquer tamanho?
+Você gosta de comer pedra? Não responde ainda! 😂 Deixa eu falar algo antes 🤝
+
+Deixa eu te preparar pra que, se você se pegar numa situação em que o seu cérebro está tentando negociar com você um "tudo ou nada", por exemplo: "ou programa o sistema inteiro que você quer fazer nesse final de semana ou não faz nada" é porque ele quer que você faça nada... sabe por que? A resposta está na aula 😍
+
+ ----- 9.4 - Criando a primeira Milestone e Issues do Projeto
+Nesta Pista Lenta iremos criar tanto a Milestone 0: Em construção, quanto as 3 Issues abaixo:
+
+Colocar o site num domínio .com.br
+Definir estilização do código e configurar editor
+Programar página de "Em construção"
+Fora conversar sobre a mecânica do neurotransmissor mais importante quando o assunto é se sentir motivado a iniciar, continuar e concluir tarefas.
+ 

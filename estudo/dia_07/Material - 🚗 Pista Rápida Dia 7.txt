@@ -1,0 +1,33 @@
+Material - 🚗 Pista Rápida: Dia 7
+7.1 - O Dia 7 começa a separar quem está na área de tecnologia para ser um profissional valorizado e que quer se sentir uma pessoa importante... de quem que tá só de brincadeira.
+
+----- 7.2 - Client e Server
+Existe uma relação extremamente importante em qualquer camada da tecnologia, que é a relação entre cliente e servidor (ou client e server). Algumas pessoas começam a se confundir sobre quem é o client e quem é o server, pois eles não são papeis fixos e dependem do que exatamente estes componentes estão fazendo. Ter a modelagem correta na mente sobre isso é algo valioso, pois ela destrava novas percepções sobre a arquitetura de todos os softwares envolvidos em um sistema.
+
+----- 7.3 - Hospedagem e Deploy
+Chegou a hora de hospedar o nosso site e começar a realizar deploys! Então para você ter uma base sólida neste tópico, nós vamos rapidamente passar pela evolução de como as pessoas faziam deploy e serviam sites na internet. Depois, vamos realizar o nosso próprio deploy, tudo isso com a ajuda de um novo integrante da equipe 😍
+
+----- 7.4 - Fazendo novos Deploys
+Deploy é uma parte crucial de um profissional que trabalha com programação e que quer ver suas implementações e ideias saindo do papel e enconstando na realidade. Então nesta aula vamos entender melhor a dinâmica do Continuous Deployment da Vercel, incluindo a funcionalidade das suas URLs permanentes e como tudo isso contribui para você ver os códigos que você programa disponíveis publicamente na internet
+
+Preciso da sua ajuda com o Epilif 🤝
+Se você tiver um tempinho extra, por favor, eu peço que você entre na aula não listada abaixo, pois estou precisando de uma ajuda:
+
+Resolvendo um problema com Epilif - https://curso.dev/web/epilif-ajustando-frase
+Link para o commit feito na aula
+modifica a frase - https://github.com/filipedeschamps/clone-tabnews/commit/f03ece81b2577db949b1a924cace6d62891d97dc
+
+----- 7.5 - ncerramento do Desafio (Resultados de todo mundo) 🎉
+Você chegou no encerramento do Primeiro Desafio 🎉 🎉 🎉
+
+Eu sinceramente estou muito feliz por isso! É algo que vai ser muito importante pra você, pra mim e também pra todos os outros alunos que passarem pela mesma experiência, porque que agora todos nós temos garantidamente algo em comum 🤝
+
+Boas práticas para compartilhar o desafio nos comentários
+Ao compartilhar o seu desafio nos comentários desta aula, sugiro seguir os 3 passos abaixo para entendermos melhor o que aconteceu no seu desafio:
+
+Escreva um rápido contexto, por exemplo: Quem era a pessoa que você enviou a URL?
+Dado que a Vercel gera uma URL única do commit no momento de um Deploy, compartilhe conosco este link que é permanente. Por exemplo, o link do meu commit com a frase é este: https://clone-tabnews-6o0vcvooy-filipedeschamps.vercel.app/
+E por último: Qual foi a reação da pessoa? 😍
+Atenção 🛑
+A Vercel implementou um novo sistema de segurança nos deploys chamado de Deployment Protection. Isto é um ótimo recurso, mas caso você queira rapidamente passar a URL de algum deploy específico para alguém, uma alternativa é temporariamente desabilitar esta opção para que o servidor se comporte como antigamente. Para isto, siga estas instruções - https://vercel.com/docs/security/deployment-protection#configuring-deployment-protection -  e desabilite o recurso 🤝
+

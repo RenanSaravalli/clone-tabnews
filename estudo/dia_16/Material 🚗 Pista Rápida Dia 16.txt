@@ -1,0 +1,23 @@
+🚗 Pista Rápida: Dia 16
+----- O Dia 16 é mais um daqueles dias especiais aqui no curso.dev porque mistura parte teórica, parte prática e também como ser um profissional melhor. E eu diria que esta última parte de ser um profissional melhor é o que faz grudar na sua mente a parte teórica e prática, tanto que no final dessa Pista Rápida aqui eu adicionei uma mensagem extra que eu não coloquei em nenhuma Pista Lenta 💪
+
+----- 16.2 - A maior briga no universo dos Testes Automatizados
+Testes Automatizados é um assunto tão importante quanto ele é passível de gerar briga na internet e nessa aula eu vou mostrar o motivo. É muito importante você estar preparado para esse tipo de discussão, principalmente sobre a diferença entre testes unitários, integração e e2e 💪
+
+Pergunta
+Qual a sua definição sobre os tipos de teste que existem?
+
+----- 16.3 - Encostando a mão no Protocolo HTTP 🔥
+Essa aula vai ser muito massa, porque eu e você vamos encostar a mão no protocolo HTTP e isso não somente vai esclarecer na sua mente muita coisa sobre tudo o que existe na internet, como também vai ser a base para conseguir entender de fato (ou revisitar) muita coisa importante como: cookies, cabeçalhos, status codes, mas tirando toda a magia de onde esses dados vem, e tudo isso vai colocar você um passo mais próximo da senioridade, ou pelo menos, vai fazer você conseguir ter conversas sérias, muito mais avançadas e certeiras quando o contexto pedir por uma pessoa que tenha maturidade e experiência nesse assunto.
+
+---- 16.4 - Não é magia! (é Protocolo)
+Eu sugiro você ter um único objetivo com estas aulas mais recentes, que é acreditar que, na area de tecnologia ou na programação num geral, não existe magia... não existe mesmo! Toda informação está em algum lugar e você pode não conhecer esse lugar e naturalmente assumir que é um local mágico, mas não é.
+
+Então nesta aula nós iremos cavucar um pouco mais o Protocolo HTTP na procura de informações que muitas pessoas encaram como "mágicas" 💪
+
+----- 16.5 - Versionamento de API e Endpoint "/status"
+A aula de hoje tem muito mais conteúdos sobre API e HTTP, mas ela um objetivo muito claro e que já está super encaminhado, que é completar a tarefa Criar endpoint /status, e em cima disto iremos aprender sobre Versionamento de API e Breaking Changes 🤝
+
+Link para o commit feito na aula
+add /api/v1/status endpoint
+https://github.com/filipedeschamps/clone-tabnews/commit/b96501529a64f970430710774818da9959085f64

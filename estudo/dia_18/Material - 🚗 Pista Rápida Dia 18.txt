@@ -1,0 +1,27 @@
+🚗 Pista Rápida: Dia 18
+
+----- 18.1 - Como sempre, vamos passar rapidamente pelas principais coisas que aconteceram no Dia 18 (e aconteceram muitas coisas), mas tem algo em especial que eu não deixei claro em nenhuma Pista Lenta que eu quero falar aqui nessa Pista Rápida e que aconteceu 25 vezes 😍
+
+----- 18.2 Criar módulo "database.js"
+Nesta aula iremos criar o módulo database.js que é uma abstração da nossa infraestrutura e que vai ser responsável por abrir conexão com o Banco de Dados e enviar queries pra ele. Para isto, vamos instalar o módulo pg na versão 8.11.3 🤝
+
+Comentário destaque ⭐️
+Depois de ver a aula, sugiro ler este comentário que fiz sobre a dúvida de outro aluno, pois pode ajudar a clarear alguns pontos importantes sobre a utilidade do database.js 💪
+
+----- 18.3 - A importância das Variáveis de Ambiente
+Quando eu realmente entendi o poder e a simplicidade das Variáveis de Ambiente, o meu cérebro deu alguns cliques muito importantes. Um deles foi de sempre que possível deixar a camada da aplicação stateless (sem estado) e isso se conecta perfeitamente com várias formas profissionais de se construir e escalar uma aplicação 💪
+
+----- 18.4 - Variáveis de Ambiente no Código
+Qual a relação entre Variáveis de Ambiente, process, env e o que entra dentro do seu código? Vamos ver tudo isso dentro dessa aula e deixar sua aplicação 100% stateless 💪
+
+----- 18.5 - Variáveis de Ambiente no Docker Compose
+Como fazer para evitar de ter Variáveis de Ambiente duplicadas no arquivo compose.yaml, no arquivo databse.js e fazer tudo puxar do .env? É isso o que iremos ver nesta aula, fora se deparar com um mistério... vamos ver se você sabe a resposta 🤝
+
+Mistério: Por quê o Banco de Dados rodou?
+Por que no minuto 02:22 da aula, ao trocar a Variável de Ambiente de POSTGRES_DATABASE para POSTGRES_DB no arquivo .env, a conexão com o Banco de Dados continuou funcionando, se o database.js estava pedindo ainda pela antiga Variável de Ambiente POSTGRES_DATABASE? Você vai precisar investigar para encontrar esta resposta 💪
+
+Comentário em destaque
+Caso queira saber qual a resposta, sugiro ler esse comentário que está bastante completo 🤝
+
+Link para o commit feito na aula
+add database.js and .env files
